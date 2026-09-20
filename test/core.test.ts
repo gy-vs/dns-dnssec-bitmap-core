@@ -1,0 +1,1 @@
+import{expect,it}from'vitest';import{encodeName}from'../src/index.js';it('encodes',()=>expect([...encodeName('a.test')]).toEqual([1,97,4,116,101,115,116,0]));
